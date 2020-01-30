@@ -1,0 +1,10 @@
+{
+    "extends": ["stylelint-prettier/recommended"],
+    "rules": {
+        "indentation": 4,
+        "block-no-empty": true,
+        "selector-type-no-unknown": true,
+        "max-empty-lines": 2,
+        "property-no-unknown": true
+    }
+}

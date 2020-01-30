@@ -1,0 +1,12 @@
+<!-- <h1>Hello World</h1> -->
+<h1>{{ title }}</h1>
+<div>
+    <div (click)="selectData(e)" *ngFor="let e of data">
+        <h1>
+            {{ e.employee_name }}
+        </h1>
+        <p>
+            {{ e.employee_salary }}
+        </p>
+    </div>
+</div>
